@@ -79,6 +79,8 @@ async function main() {
     let data = json.data;
 
     // 1. Filter by Chain (BSC only)
+    // Note: DefiLlama uses 'Binance' for BSC
+    const targetChain = 'Binance'; 
     data = data.filter(p => p.chain === targetChain);
 
     // 2. Filter by Symbol (if provided)

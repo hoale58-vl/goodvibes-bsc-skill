@@ -1,7 +1,7 @@
 {
-  "name": "evm-wallet-skill",
+  "name": "bsc-defi-assistant",
   "version": "1.0.0",
-  "description": "Self-sovereign EVM wallet for Clawdbot",
+  "description": "Your All-in-One Command Center for BNB Smart Chain & opBNB",
   "type": "module",
   "scripts": {
     "setup": "node src/setup.js",
